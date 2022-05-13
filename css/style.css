@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.caja {
+    height: 300px;
+    width: 300px;   
+    background-color: aquamarine;
+    margin: 2rem;
+    border: 5px solid black;
+    transform: rotate(19deg);
+}
+*/
+
+
+.luna img {
+    width:40%;
+}
+
+/* Primero se definen las animaciones que se van a utilizar y luego con el keyframe la linea de tiempo de como van a suceder estas acciones
+
+
+Primero declarar el nombre para la animacion*/
+
+.girar {
+    animation-name: luna-gira;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes luna-gira { from{
+    transform: rotate(19deg);
+}
+to{
+    transform: rotate(49deg);
+} 
+ }
+   
+
